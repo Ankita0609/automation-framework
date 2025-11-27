@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-27T17:36:08 IST" name="Default suite" finished-at="2025-11-27T17:36:37 IST" duration-ms="29703">
+    <groups>
+    </groups>
+    <test started-at="2025-11-27T17:36:08 IST" name="Default test" finished-at="2025-11-27T17:36:37 IST" duration-ms="29703">
+      <class name="uiTests.UserManagementTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:uiTests.UserManagementTest@448c8166]" started-at="2025-11-27T17:36:08 IST" name="setup" finished-at="2025-11-27T17:36:14 IST" duration-ms="5701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAndValidateUser()[pri:0, instance:uiTests.UserManagementTest@448c8166]" started-at="2025-11-27T17:36:14 IST" name="createAndValidateUser" finished-at="2025-11-27T17:36:24 IST" duration-ms="10729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndValidateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:uiTests.UserManagementTest@448c8166]" started-at="2025-11-27T17:36:24 IST" name="tearDown" finished-at="2025-11-27T17:36:25 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- uiTests.UserManagementTest -->
+      <class name="uiTests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:uiTests.LoginTest@376a0d86]" started-at="2025-11-27T17:36:25 IST" name="setup" finished-at="2025-11-27T17:36:32 IST" duration-ms="6752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginTest()[pri:0, instance:uiTests.LoginTest@376a0d86]" started-at="2025-11-27T17:36:32 IST" name="validLoginTest" finished-at="2025-11-27T17:36:37 IST" duration-ms="5652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:uiTests.LoginTest@376a0d86]" started-at="2025-11-27T17:36:37 IST" name="tearDown" finished-at="2025-11-27T17:36:37 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- uiTests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Suite">
+
+    <test name="Regression Tests">
+        <classes>
+            <class name="uiTests.LoginTest"/>
+            <class name="uiTests.UserManagementTest"/>
+        </classes>
+    </test>
+</suite>
