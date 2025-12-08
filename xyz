@@ -1,0 +1,42 @@
+git clone https://github.com/Ankita0609/automation-framework.git
+cd automation-framework
+
+2️⃣ Install Dependencies
+mvn clean install
+
+3️⃣ Execute Test Suite
+mvn test
+
+📊 Generate Allure Report
+allure serve allure-results
+
+
+🧪 Available Tests
+
+| Test Name            | Description                              |
+| -------------------- | ---------------------------------------- |
+| `LoginTest`          | Verifies valid login functionality       |
+| `UserManagementTest` | Creates a new user and validates success |
+
+⭐ Framework Features
+
+✔ Clean Page Object Model (POM)
+✔ Explicit waits (No flakiness)
+✔ Centralized test execution (testng.xml)
+✔ Scalable and expandable structure
+✔ Automatic driver setup via WebDriverManager
+
+🚀 Planned Enhancements
+
+🔹 CI/CD with GitHub Actions
+🔹 Docker Grid support
+🔹 Cross-browser testing
+🔹 Parallel execution
+
+👩‍💻 Author
+
+Ankita Singh
+📌 Automation Test Engineer
+🔗 GitHub: https://github.com/Ankita0609
+
+<p align="center">⭐ If this project helped you, please give it a star!</p> <p align="center">Made with ❤️ and ☕</p> ```
